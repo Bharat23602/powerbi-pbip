@@ -1,0 +1,134 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.11.0/schema.json",
+  "name": "0a290e998bd333be0b5b",
+  "position": {
+    "x": 147.966573816156,
+    "y": 128.35654596100278,
+    "z": 0,
+    "height": 488.46796657381617,
+    "width": 852.14484679665736,
+    "tabOrder": 0
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Table1"
+                    }
+                  },
+                  "Property": "Sl. No"
+                }
+              },
+              "queryRef": "Table1.Sl. No",
+              "nativeQueryRef": "Sl. No"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Table1"
+                    }
+                  },
+                  "Property": "Workspace Name"
+                }
+              },
+              "queryRef": "Table1.Workspace Name",
+              "nativeQueryRef": "Workspace Name"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Table1"
+                    }
+                  },
+                  "Property": "Status"
+                }
+              },
+              "queryRef": "Table1.Status",
+              "nativeQueryRef": "Status"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Table1"
+                    }
+                  },
+                  "Property": "Report Name"
+                }
+              },
+              "queryRef": "Table1.Report Name",
+              "nativeQueryRef": "Report Name"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Table1"
+                    }
+                  },
+                  "Property": "Sharpoint Link"
+                }
+              },
+              "queryRef": "Table1.Sharpoint Link",
+              "nativeQueryRef": "Sharpoint Link"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Table1"
+                  }
+                },
+                "Property": "Status"
+              }
+            },
+            "direction": "Ascending"
+          }
+        ]
+      }
+    },
+    "objects": {
+      "columnWidth": [
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "76.30640847741928D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Table1.Sl. No"
+          }
+        }
+      ],
+      "columnHeaders": [
+        {
+          "properties": {}
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}
